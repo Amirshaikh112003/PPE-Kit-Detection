@@ -1,0 +1,14 @@
+<!-- detection.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detection Results</title>
+</head>
+<body>
+    <h2>Detection Results</h2>
+    <!-- Display the processed image with bounding boxes -->
+    <img src="{{ url_for('static', filename='uploads/' + filepath.split('/')[-1]) }}" alt="Detection result">
+</body>
+</html>
